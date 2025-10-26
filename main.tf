@@ -16,6 +16,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+/*
 module "mymod" {
   source  = "app.terraform.io/krlabtfoct25/tfec2/aws" // private module registry
   version = "3.1.0"
@@ -27,3 +28,4 @@ module "mymod" {
 output "the_ec2_ip" {
   value = module.mymod.ec2_ip
 }
+*/
